@@ -1,0 +1,26 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "The Note-Taking Application is a simple and efficient tool that allows users to create, update, delete, and manage personal notes. It is designed to be intuitive and fast, offering an accessible interface for users to store and organize their thoughts, ideas, and tasks in one place. The app is a full-stack web application with a backend powered by Node.js, Express, and MongoDB, and a frontend built using React and the Context API.",
+  "main": "index.js",
+  "scripts": {
+  "start": "node dist/server.js",
+  "dev": "nodemon src/server.ts"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
